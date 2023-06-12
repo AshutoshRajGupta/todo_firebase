@@ -1,0 +1,154 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #2c3e50, #3498db);
+}
+
+.app {
+  font-family: Arial, sans-serif;
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.app.dark {
+  /* background-color: #d1e7f6; */
+  background: linear-gradient(to bottom right, #6a91b7, #81cafb);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .app {
+    width: 90%;
+    height: 90%;
+  }
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.navbar-title {
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+  color: darkslateblue;
+}
+
+.toggle-theme {
+  justify-content: flex-end;
+  margin-top: -40px;
+  margin-right: 10px;
+}
+
+/* Headline */
+.headline {
+  margin-bottom: 20px;
+}
+
+.headline-title {
+  text-align: center;
+  color: darkblue;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.headline-subtitle {
+  text-align: center;
+  color: red;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+/* Todo List */
+.todo-list {
+  margin-bottom: 20px;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.todo-text {
+  cursor: pointer;
+  color: #333;
+}
+
+.app.dark .todo-text {
+  color: #fff;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.todo-actions {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.edit-button,
+.delete-button {
+  padding: 3px;
+  margin-left: 5px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #333;
+}
+
+.app.dark .edit-button,
+.app.dark .delete-button {
+  color: #fff;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+  color: gray;
+}
+
+/* Add Todo */
+.add-todo {
+  display: flex;
+  align-items: center;
+}
+
+.add-todo input[type='text'] {
+  flex: 1;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.add-todo button {
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.app.dark .add-todo button {
+  background-color: #fff;
+  color: #333;
+}
+
+.add-todo button:hover {
+  background-color: #555;
+}
