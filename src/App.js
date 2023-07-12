@@ -113,7 +113,7 @@ const Navbar = ({
 };
 
 const App = () => {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
   const [todos, setTodos] = useState([]);
   const [inputValue, setInputValue] = useState("");
   const [user, setUser] = useState(null);
