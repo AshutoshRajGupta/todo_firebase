@@ -17,7 +17,9 @@
 ## Screenshots
 #### <img width="752" alt="image" src="https://github.com/AshutoshRajGupta/todo_firebase/assets/89141709/1de80396-3520-4b57-a5cb-f72bcdcff0e6">
 #### <img width="662" alt="image" src="https://github.com/AshutoshRajGupta/todo_firebase/assets/89141709/704c9a55-04d8-4b54-9023-b90e5d265f6e">
-#### <img width="731" alt="image" src="https://github.com/AshutoshRajGupta/todo_firebase/assets/89141709/09a0d77f-73bd-44df-97df-cbdd4d8e385b">
+#### <img width="694" alt="image" src="https://github.com/AshutoshRajGupta/todo_firebase/assets/89141709/0246600d-4371-4227-9e00-82092c172fa0">
+#### <img width="661" alt="image" src="https://github.com/AshutoshRajGupta/todo_firebase/assets/89141709/f702cb9c-b718-47a2-befa-7ea20b427437">
+
 
 
 # Getting Started with Create React App
