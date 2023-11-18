@@ -6,7 +6,7 @@
 
 
 ## Functionalities:
-#### User Login And Logout
+#### User Login And Logout.
 #### Usser can edit the todo add the todo and delete the todo also.
 #### data will be stored on localstorage
 
