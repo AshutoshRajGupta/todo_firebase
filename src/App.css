@@ -72,7 +72,7 @@ body {
 
 /* Todo Container */
 .todo-container {
-  max-height: 200px; /* Adjust the maximum height as needed */
+  max-height: 300px; /* Adjust the maximum height as needed */
   overflow-y: auto;
 }
 
@@ -208,6 +208,8 @@ body {
 .user-info .username {
   margin-right: 10px;
   color: rgb(111, 7, 7);
+  font-size: 20px;
+  font-weight: 500;
 }
 
 input[type="range"] {
